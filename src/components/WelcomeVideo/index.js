@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Trees from "../../utils/trees.gif"
 import ImageFadeIn from "react-image-fade-in";
 import Statue from "../../utils/SpinningStatue.gif"

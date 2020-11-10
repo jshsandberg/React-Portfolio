@@ -2,7 +2,6 @@ import React from "react";
 import WelcomeNavBar from "../components/WelcomeNavBar/index";
 import WelcomeText from "../components/WelcomeText";
 import WelcomeVideo from "../components/WelcomeVideo/index";
-import Rebooting from "../utils/Rebooting.gif"
 
 
 function WelcomePage() {
