@@ -1,0 +1,10 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.space {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
