@@ -1,0 +1,19 @@
+
+
+
+
+.roadBorder {
+    border-width: 5px;
+    border-style: groove;
+}
+
+
+.landmark {
+    max-width: 100%;
+}
+
+.roadtrip {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding-top: 10%;
+}
