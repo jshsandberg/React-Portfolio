@@ -1,8 +1,13 @@
 import React from "react";
+import PokemonPictures from "../components/PokemonPictures";
+import WelcomeNavBar from "../components/WelcomeNavBar";
 
 function PokedexPage () {
-    return (
-        <h1>Hello</h1>
+    return ( 
+    <div>
+        <WelcomeNavBar></WelcomeNavBar>
+        <PokemonPictures></PokemonPictures>
+    </div>
     )
 };
 

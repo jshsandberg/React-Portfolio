@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Pokemon from "../../utils/Pokemon.png";
 import Pikachu from "../../utils/Pikachu.gif"
 import Treeko from "../../utils/Treeko.gif"
@@ -50,23 +50,25 @@ function PokemonHolder() {
     
     return (
     <div className="container">
-        <div onClick={(e) => pokemonData()} onMouseEnter={pokemonApp} onMouseLeave={stills}style={ style } className="container pokeBorder">
-        <a href="/pokedex"></a>
-            <div className="row">
-                <div className="col">
-                    <img className="pikachu" alt={pikachu} src={pikachu}></img>
-                    <img className="cynthia" alt={leftPic} src={leftPic}></img>   
-                    <img className="butterfree" alt={butterfree} src={butterfree}></img> 
-                </div>
-                <div className="col">
-                    <img className="pokemon" alt={Pokemon} src={Pokemon}></img>
-                </div>
-                <div className="col">
-                    <img className="treeko" alt={treeko} src={treeko}></img>
-                    <img className="gary" alt={rightPic} src={rightPic}></img>
+        <Link to="/pokedex">
+            <div onMouseEnter={pokemonApp} onMouseLeave={stills}style={ style } className="container pokeBorder">
+                <div className="row">
+                    <div className="col">
+                        <img className="pikachu" alt={pikachu} src={pikachu}></img>
+                        <img className="cynthia" alt={leftPic} src={leftPic}></img>   
+                        <img className="butterfree" alt={butterfree} src={butterfree}></img> 
+                    </div>
+                    <div className="col">
+                        <img className="pokemon" alt={Pokemon} src={Pokemon}></img>
+                    </div>
+                    <div className="col">
+                        <img className="treeko" alt={treeko} src={treeko}></img>
+                        <img className="gary" alt={rightPic} src={rightPic}></img>
+                    </div>
                 </div>
             </div>
-        </div>
+        </Link>
+
     </div>
     )
 }
