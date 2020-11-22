@@ -1,19 +1,19 @@
 import React from "react";
-import Recipe1 from "../../utils/RecipePictures/Recipe1.png"
-import Recipe2 from "../../utils/RecipePictures/Recipe2.png"
-import Recipe3 from "../../utils/RecipePictures/Recipe3.png"
-import Recipe4 from "../../utils/RecipePictures/Recipe4.png"
-import RecipeHolder from "../RecipeHolder";
-import Wallpaper from "../../utils/RecipePictures/Wallpaper.jpg"
+// import Recipe1 from "../../utils/RecipePictures/Recipe1.png"
+// import Recipe2 from "../../utils/RecipePictures/Recipe2.png"
+// import Recipe3 from "../../utils/RecipePictures/Recipe3.png"
+// import Recipe4 from "../../utils/RecipePictures/Recipe4.png"
+// import RecipeHolder from "../RecipeHolder";
+//import Wallpaper from "../../utils/RecipePictures/Wallpaper.jpg"
 import "./style.css"
 
 
 function RecipeContent() {
 
 
-    const sectionStyle = {
-        backgroundImage: `url(${Wallpaper})`
-      }
+    // const sectionStyle = {
+    //     backgroundImage: `url(${Wallpaper})`
+    //   }
 
     return (
     

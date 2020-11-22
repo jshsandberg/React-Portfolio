@@ -3,7 +3,7 @@ import PokemonHolder from "../components/PokemonHolder/index.js";
 import RecipeHolder from "../components/RecipeHolder/index.js";
 import RoadmapHolder from "../components/RoadmapHolder/index.js"
 import WelcomeNavBar from "../components/WelcomeNavBar";
-import Modal from "../components/TooltipModal/index.js"
+//import Modal from "../components/TooltipModal/index.js"
 
 
 function ProjectPage() {

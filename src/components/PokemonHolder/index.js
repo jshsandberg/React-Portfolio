@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Pokemon from "../../utils/Pokemon.png";
 import Pikachu from "../../utils/Pikachu.gif"
@@ -43,9 +43,9 @@ function PokemonHolder() {
         setButterfree(ButterfreeStill);
     }
 
-    const pokemonData = (e) => {
-      console.log(e)
-    }
+    // const pokemonData = (e) => {
+    //   console.log(e)
+    // }
 
     
     return (

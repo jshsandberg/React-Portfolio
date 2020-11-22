@@ -1,18 +1,18 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 function Modal() {
 
-    const [active , setActive] = useState("modal")
+    // const [active , setActive] = useState("modal")
 
-    useEffect(() => {
+    // useEffect(() => {
         
-    },[])
+    // },[])
 
     return (
         <div>
-      <button type="button" class="btn btn-primary" data-toggle={active} data-target="#exampleModalCenter">
+      {/* <button type="button" class="btn btn-primary" data-toggle={active} data-target="#exampleModalCenter">
   Launch demo modal
-</button>
+</button> */}
       <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
