@@ -8,7 +8,7 @@ import Recipe from "./pages/Recipe"
 function App() {
   return (
 
-        <Router>
+        <Router basename="/React-Portfolio">
           <Route exact path="/" component={Welcome} />
           <Route exact path="/project" component={Project} />
           <Route exact path="/pokedex" component={Pokedex} />
