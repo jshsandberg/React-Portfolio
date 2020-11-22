@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://jshsandberg.github.io/React-Portfolio/",
+  "homepage": "https://jshsandberg.github.io/react-portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
