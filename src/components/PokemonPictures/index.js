@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Pokedex1 from "../../utils/PokedexPictures/Pokedex1.png"
 import Pokedex2 from "../../utils/PokedexPictures/Pokedex2.png"
 import Pokedex3 from "../../utils/PokedexPictures/Pokedex3.png"
 import ImageFadeIn from "react-image-fade-in";
+import Seattle from "../../utils/RoadmapPictures/Seatlle.gif";
+import NewYork from "../../utils/RoadmapPictures/NewYork.gif"
+import SanFrancisco from "../../utils/RoadmapPictures/SanFrancisco.gif"
+import Line from "../../utils/PokedexPictures/hr.jpg"
+import Recipe from "../../utils/RecipePictures/Recipe.png";
+
+
 import "./style.css"
 import RecipeHolder from "../RecipeHolder";
 import RoadmapHolder from "../RoadmapHolder";
@@ -10,6 +17,21 @@ import RoadmapHolder from "../RoadmapHolder";
 
 
 function PokemonPictures() {
+
+
+    const [landmark, setLandmark] = useState(Seattle)
+
+    useEffect(() => {
+        let landmarkIndex = landmarks[Math.floor(Math.random() * landmarks.length)];
+        setLandmark(landmarkIndex)
+    },[])
+
+    const landmarks = [Seattle, NewYork, SanFrancisco]
+
+    const pokemonStyle = {
+        fontFamily: "Latos",
+        paddingTop: "85px"
+    }
 
 
     return (
@@ -34,23 +56,33 @@ function PokemonPictures() {
                         </div>
                     </div>
                     <div className="col-5">
-                        <p>I wanted to find a project that I felt passionate about while still honing my skills with hooks, API's and other techniques. Creating a Pokedex with Gen I Pokemon has been extremely fun while also teaching me better practices. Learning how to plan a project has been a crucial point that I have learned while working on this project. I have gone through multiple versions of this application, thinking I was going to go one way and then realizing that way was either not efficient or just impractical. Still a work in progess; however, I am proud of the technological feat I have accomplished with this project.</p>
+                        <div>
+                            <h5 style={pokemonStyle}>I wanted to find a project that I felt passionate about while still honing my skills with hooks, API's and other techniques. Creating a Pokedex with Gen I Pokemon has been extremely fun while also teaching me better practices. Learning how to plan a project has been a crucial point that I have learned while working on this project. I have gone through multiple versions of this application, thinking I was going to go one way and then realizing that way was either not efficient or just impractical. Still a work in progess; however, I am proud of the technological feat I have accomplished with this project.</h5>
+                        </div>
+                        <div>
+                            <h3>Love for you to check out my work at: <a href="https://jshsandberg.github.io/pokedex">Pokedex</a> </h3>
+                        </div>
                     </div>
                 </div>
             </div>
-            <br></br>
-            <br></br>
-            <br></br>
+           <hr 
+                style={{
+                    backgroundImage: `url(${Line})`,
+                    display: "block",
+                    border: 0,
+                    height: "75px"
+                }}
+           />
             <div className="container">
                 <div className="row">
                     <div className="col">
-                    <RecipeHolder></RecipeHolder>
+                        <img style={{width: "78%", paddingTop: "35px"}} src={landmark} />
                     </div>
                     <div className="col">
-                    <RoadmapHolder></RoadmapHolder>  
+                        <img style={{width: "75%"}} className="recipe" alt={Recipe} src={Recipe}></img>
                     </div>
                     <div className="col">
-                    
+               
                     </div>
                 </div>
             </div>
