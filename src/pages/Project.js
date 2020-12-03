@@ -3,6 +3,7 @@ import PokemonHolder from "../components/PokemonHolder/index.js";
 import RecipeHolder from "../components/RecipeHolder/index.js";
 import RoadmapHolder from "../components/RoadmapHolder/index.js"
 import WelcomeNavBar from "../components/WelcomeNavBar";
+import ShelfHolder from "../components/ShelfHolder/shelfholder.js";
 //import Modal from "../components/TooltipModal/index.js"
 
 
@@ -27,6 +28,13 @@ function ProjectPage() {
             <br></br>
             <br></br>
             <RoadmapHolder></RoadmapHolder>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <ShelfHolder></ShelfHolder>
         </div>
     )
 };

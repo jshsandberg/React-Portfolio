@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import Pokedex1 from "../../utils/PokedexPictures/Pokedex1.png"
 import Pokedex2 from "../../utils/PokedexPictures/Pokedex2.png"
 import Pokedex3 from "../../utils/PokedexPictures/Pokedex3.png"
@@ -79,7 +80,7 @@ function PokemonPictures() {
                         <img style={{width: "78%", paddingTop: "35px"}} src={landmark} />
                     </div>
                     <div className="col">
-                        <img style={{width: "75%"}} className="recipe" alt={Recipe} src={Recipe}></img>
+                        <Link to="/recipe"><img style={{width: "75%"}} className="recipe" alt={Recipe} src={Recipe}></img></Link>
                     </div>
                     <div className="col">
                
