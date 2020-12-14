@@ -9,7 +9,7 @@ import NewYork from "../../utils/RoadmapPictures/NewYork.gif"
 import SanFrancisco from "../../utils/RoadmapPictures/SanFrancisco.gif"
 import Line from "../../utils/PokedexPictures/hr.jpg"
 import Recipe from "../../utils/RecipePictures/Recipe.png";
-
+import Logo from "../../utils/InventoryPictures/logo.png";
 
 import "./style.css"
 import RecipeHolder from "../RecipeHolder";
@@ -77,13 +77,13 @@ function PokemonPictures() {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <img style={{width: "78%", paddingTop: "35px"}} src={landmark} />
+                        <Link to="roadmap"><img style={{width: "78%", paddingTop: "35px"}} src={landmark}></img></Link>
                     </div>
                     <div className="col">
                         <Link to="/recipe"><img style={{width: "75%"}} className="recipe" alt={Recipe} src={Recipe}></img></Link>
                     </div>
                     <div className="col">
-               
+                        <Link to="/shelfkeeper"><img style={{maxWidth: "60%", paddingTop: "58px"}} alt={Logo} src={Logo}></img></Link>
                     </div>
                 </div>
             </div>

@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Pikachu from "../../utils/Pikachu.gif"
-import Recipe1 from "../../utils/RecipePictures/Recipe1.png"
-import Recipe2 from "../../utils/RecipePictures/Recipe2.png"
-import Recipe3 from "../../utils/RecipePictures/Recipe3.png"
-import Recipe4 from "../../utils/RecipePictures/Recipe4.png"
+import Pikachu from "../../utils/Pikachu.gif";
+import Recipe1 from "../../utils/RecipePictures/Recipe1.png";
+import Recipe2 from "../../utils/RecipePictures/Recipe2.png";
+import Recipe3 from "../../utils/RecipePictures/Recipe3.png";
+import Recipe4 from "../../utils/RecipePictures/Recipe4.png";
 import Seattle from "../../utils/RoadmapPictures/Seatlle.gif";
-import NewYork from "../../utils/RoadmapPictures/NewYork.gif"
-import SanFrancisco from "../../utils/RoadmapPictures/SanFrancisco.gif"
+import NewYork from "../../utils/RoadmapPictures/NewYork.gif";
+import SanFrancisco from "../../utils/RoadmapPictures/SanFrancisco.gif";
 // import RecipeHolder from "../RecipeHolder";
-import Wallpaper from "../../utils/RecipePictures/Wallpaper.jpg"
-import "./style.css"
+import Wallpaper from "../../utils/RecipePictures/Wallpaper.jpg";
+import Logo from "../../utils/InventoryPictures/logo.png";
+import "./style.css";
 
 
 function RecipeContent() {
@@ -97,13 +98,13 @@ function RecipeContent() {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <Link to="/"><img style={{width: "78%", paddingTop: "35px"}} src={landmark} /></Link>
+                        <Link to="/roadmap"><img style={{width: "78%", paddingTop: "35px"}} src={landmark} /></Link>
                     </div>
                     <div className="col">
                        <Link to="/pokedex"><img style={{width: "85%", paddingTop: "45px"}} src={Pikachu} /></Link>
                     </div>
                     <div className="col">
-               
+                        <Link to="/shelfkeeper"><img style={{maxWidth: "60%", paddingTop: "58px"}} alt={Logo} src={Logo}></img></Link>
                     </div>
                 </div>
             </div>                  
