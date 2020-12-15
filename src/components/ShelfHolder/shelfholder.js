@@ -7,7 +7,7 @@ function shelfHolder() {
     return (
         <>
         
-                    <Link to="/shelfholder">
+                    <Link to="/shelfkeeper">
                     <div className="container">
                         <div className="row"> 
                             <div className="col-7">

@@ -8,6 +8,7 @@ import Seattle from "../../utils/RoadmapPictures/Seatlle.gif";
 import NewYork from "../../utils/RoadmapPictures/NewYork.gif";
 import SanFrancisco from "../../utils/RoadmapPictures/SanFrancisco.gif";
 import Logo from "../../utils/InventoryPictures/logo.png";
+import Recipe from "../../utils/RecipePictures/Recipe.png";
 
 
 function RoadmapContent() {
@@ -61,7 +62,7 @@ function RoadmapContent() {
                         <Link to="/shelfkeeper"><img style={{maxWidth: "60%", paddingTop: "58px"}} alt={Logo} src={Logo}></img></Link>
                     </div>
                     <div className="col">
-                        <Link to="/roadmap"><img style={{width: "78%", paddingTop: "35px"}} src={landmark} /></Link>
+                        <Link to="/recipe"><img style={{width: "75%"}} className="recipe" alt={Recipe} src={Recipe}></img></Link>
                     </div>
                     <div className="col">
                        <Link to="/pokedex"><img style={{width: "85%", paddingTop: "45px"}} src={Pikachu} /></Link>

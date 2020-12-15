@@ -5,6 +5,7 @@ import Welcome from "./pages/Welcome"
 import Project from "./pages/Project"
 import Recipe from "./pages/Recipe"
 import Roadmap from "./pages/Roadmap"
+import Shelf from "./pages/Shelf"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route exact path="/pokedex" component={Pokedex} />
           <Route exact path="/recipe" component={Recipe} />
           <Route exact path="/roadmap" component={Roadmap} />
+          <Route exact path="/shelfkeeper" component={Shelf} />
         </Router>
   );
 }

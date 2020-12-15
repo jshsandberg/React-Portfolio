@@ -11,20 +11,6 @@ function ProjectPage() {
     return (
         <div>
             <WelcomeNavBar></WelcomeNavBar>
-            <h1>Projects</h1>;
-            <PokemonHolder></PokemonHolder>
-            {/* Make css for space, DONT USE BR */}
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <RecipeHolder></RecipeHolder>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
             <br></br>
             <br></br>
             <RoadmapHolder></RoadmapHolder>
@@ -34,7 +20,22 @@ function ProjectPage() {
             <br></br>
             <br></br>
             <br></br>
+            <PokemonHolder></PokemonHolder>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <ShelfHolder></ShelfHolder>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <RecipeHolder></RecipeHolder>
+            <br></br>
         </div>
     )
 };
