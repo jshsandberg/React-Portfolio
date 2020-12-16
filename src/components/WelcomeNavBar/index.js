@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function WelcomeNavBar() {
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <Link class="navbar-brand" to="#">Navbar</Link>
+  <Link class="navbar-brand" to="#">Joshua Sandberg</Link>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -17,10 +17,10 @@ function WelcomeNavBar() {
         <Link class="nav-link" to="/project">Projects</Link>
       </li>
       <li class="nav-item">
-        {/* <a class="nav-link" href="#">Pricing</a> */}
+        <Link className="nav-link" to="/contact">Contact</Link>
       </li>
       <li class="nav-item">
-        {/* <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> */}
+        <Link className="nav-link" to="/bio">About Me</Link>
       </li>
     </ul>
   </div>

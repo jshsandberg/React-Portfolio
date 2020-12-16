@@ -48,22 +48,22 @@ function ShelfContent() {
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src={Update} alt="First slide" />
+                                    <img class="d-block w-100" src={Welcome} alt="First slide" />
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src={Welcome} alt="Second slide" />
+                                    <img class="d-block w-100" src={Signup} alt="Second slide" />
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src={Inventory} alt="Third slide" />
+                                    <img class="d-block w-100" src={Signin} alt="Third slide" />
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src={Signup} alt="Fourth slide" />
+                                    <img class="d-block w-100" src={Inventory} alt="Fourth slide" />
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src={Signin} alt="Fifth slide" />
+                                    <img class="d-block w-100" src={Form} alt="Fifth slide" />
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src={Form} alt="Sixth slide" />
+                                    <img class="d-block w-100" src={Update} alt="Sixth slide" />
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

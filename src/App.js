@@ -5,7 +5,9 @@ import Welcome from "./pages/Welcome"
 import Project from "./pages/Project"
 import Recipe from "./pages/Recipe"
 import Roadmap from "./pages/Roadmap"
-import Shelf from "./pages/Shelf"
+import Shelf from "./pages/Shelf";
+import Contact from "./pages/Contact";
+import Bio from "./pages/Bio";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Route exact path="/recipe" component={Recipe} />
           <Route exact path="/roadmap" component={Roadmap} />
           <Route exact path="/shelfkeeper" component={Shelf} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/bio" component={Bio} />
         </Router>
   );
 }
