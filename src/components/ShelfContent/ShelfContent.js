@@ -22,7 +22,16 @@ function ShelfContent() {
         setLandmark(landmarkIndex)
     },[])
 
-    const landmarks = [Seattle, NewYork, SanFrancisco]
+    const landmarks = [Seattle, NewYork, SanFrancisco];
+
+    const techCol = {
+        backgroundColor: "lightgray",
+        paddingTop: "30px",
+        paddingRight: "30px",
+        paddingLeft: "30px",
+        paddingBottom: "30px",
+        marginTop: "75px",
+    }
 
 
 
@@ -32,9 +41,9 @@ function ShelfContent() {
         <br></br>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-2">
+                    {/* <div className="col-2">
                         
-                    </div>
+                    </div> */}
                     <div className="col-8">
                         <div id="carouselExampleIndicators" class="carousel slide" data-interval="0">
                             <ol class="carousel-indicators">
@@ -76,8 +85,21 @@ function ShelfContent() {
                             </a>
                         </div>
                     </div>
-                    <div className="col-2">
-
+                    <div className="col-4">
+                        <div style={techCol}>
+                            <p>
+                                Technologies used in Shelf Keeper:
+                                <br></br>
+                                <br></br>
+                                Axios / Bcrypt / Express / Express-jwt / JsonWebToken / Mongooes / Path 
+                                <br></br>
+                                <br></br>
+                                Responsibilites for the project:
+                                <br></br>
+                                <br></br>
+                                Create the Inventory Page. Create the Inventory Form Page. Create the password authenticatation  and JsonWebTokens. Backend for the Inventory and Users. Create the CRUD for the application for the Inventory.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <br></br>
@@ -88,12 +110,10 @@ function ShelfContent() {
                     </div>
                     <div className="col-10">
                         <br></br>
-                    <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.
-
-                        How do I decide what to put in a paragraph?
-                        Before you can begin to determine what the composition of a particular paragraph will be, you must first decide on an argument and a working thesis statement for your paper. What is the most important idea that you are trying to convey to your reader? The information in each paragraph must be related to that idea. In other words, your paragraphs should remind your reader that there is a recurrent relationship between your thesis and the information in each paragraph. A working thesis functions like a seed from which your paper, and your ideas, will grow. The whole process is an organic one—a natural progression from a seed to a full-blown paper where there are direct, familial relationships between all of the ideas in the paper.
-
-                        The decision about what to put into your paragraphs begins with the germination of a seed of ideas; this “germination proc</p>
+                    <p>Shelf Keeper is our latest applicaiton and the one I am most proud of. It is MERN stack application. It uses multiple technologies and packages. It is deployed and ready to be used as of now; however, we have some features disabled now that we would like to add to in the future. Those features can be seen in the applicaiton; however, we have greyed out the buttons to show that they are not enabled but are being worked on as we speak. 
+                        <br></br>
+                        <br></br>
+                        Shelf Keeper is an inventory tracking application. It keeps track of each individual business a user may have and the inventory that business may have. A user can add, update, and delete their inventory as they see fit. This application also allows the user to keep track of their inventory's financal information. </p>
                         <br></br>
                     </div>
                     <div className="col-1">

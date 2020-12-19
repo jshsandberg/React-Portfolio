@@ -37,8 +37,7 @@ function RecipeContent() {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <p>0It is safe to assume that by fitting you mean covering all of the width. This is becauseYou typically do not know the height just by using col-sm-6 or col-md-6 or col-lg-4.There is a huge probability of loss in aspect ratio of the image if you try to resize it according to your own will.Use img src = "images/dummy_image.png" class = "img-responsive" width = "100%" for fitting the column. This will fit your image width-wise into the c</p>
-                    </div>
+                    <p>My group and I wanted to create an application that gave user's the oppurtunity to find their favorite dish and/or drink recipe. We created this application in June, hoping to give families who were stuck in quaritine a way to find recipes/drinks that were not only tasting, but easy to follow recipe. What we came up with is Recipes, a tool for everyone that helps them find recipes for food and drink! This application uses an API call from Edama. It only allows 10 calls per minute; hence, if user's refresh the page before the minute is up for more API calls, the applicaiton will not have food selections available. We use two API calls, one from Edama and the other from TheCocktailDB. This application is only a Front End Application, using Jquery and Bootstrap.</p>                    </div>
                     <div className="col-7">
                         <div style={{borderStyle: "solid"}} className="container">
                             <div>
@@ -67,8 +66,8 @@ function RecipeContent() {
                         </div>
                     </div>
                     <div className="col">
-                        <p>0It is safe to assume that by fitting you mean covering all of the width. This is becauseYou typically do not know the height just by using col-sm-6 or col-md-6 or col-lg-4.There is a huge probability of loss in aspect ratio of the image if you try to resize it according to your own will.Use img src = "images/dummy_image.png" class = "img-responsive" width = "100%" for fitting the column. This will fit your image width-wise into the c</p>
-                    </div>
+                        <p>My responsibility in the making of the applicaiton was the API calls and the functionality of the applicaiton. This was my first attempt at creating a big applicaiton with a group. I am very proud of the work we were able to do and how the applicaiton looks; however, as I look back at the code, I see how much I have grown in my skills and logic when it comes to creating applications like this one. </p>          
+                  </div>
                 </div>  
             </div> 
             <br></br>
@@ -77,7 +76,9 @@ function RecipeContent() {
                 <div className="row">
                    
                     <div className="col">
-                        <p>0It is safe to assume that by fitting you mean covering all of the width. This is becauseYou typically do not know the height just by using col-sm-6 or col-md-6 or col-lg-4.There is a huge probability of loss in aspect ratio of the image if you try to resize it according to your own will.Use img src = "images/dummy_image.png" class = "img-responsive" width = "100%" for fitting the column. This will fit your image width-wise into the c</p>
+                        <p>Recipes has a homepage that lets the user find multiple random dishes and drinks. It has a search bar that lets user's type in a drink or food of their choice and then the application will populate the search page with findings using the API calls. There is a random dish selector for user's who may not know what they want and would like a surprise. </p>
+                        <br></br>
+                        <h3>Come take a look here!  <a href="https://jshsandberg.github.io/Recipe/">Recipes</a></h3>
                     </div>
                     <div className="col-7">
                         <div style={{borderStyle: "solid"}} className="container">
