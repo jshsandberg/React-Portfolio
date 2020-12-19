@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.1400032e.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.ba3e1a2a.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.ba3e1a2a.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.1daf352d.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.1daf352d.js.map",
-    "static/js/2.681a4cca.chunk.js": "/react-portfolio/static/js/2.681a4cca.chunk.js",
-    "static/js/2.681a4cca.chunk.js.map": "/react-portfolio/static/js/2.681a4cca.chunk.js.map",
-    "static/js/3.4936fdb6.chunk.js": "/react-portfolio/static/js/3.4936fdb6.chunk.js",
-    "static/js/3.4936fdb6.chunk.js.map": "/react-portfolio/static/js/3.4936fdb6.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.e4d70d1c.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.90150421.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.90150421.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.88b44f89.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.88b44f89.js.map",
+    "static/js/2.4f2f041b.chunk.js": "/react-portfolio/static/js/2.4f2f041b.chunk.js",
+    "static/js/2.4f2f041b.chunk.js.map": "/react-portfolio/static/js/2.4f2f041b.chunk.js.map",
+    "static/js/3.4d408d64.chunk.js": "/react-portfolio/static/js/3.4d408d64.chunk.js",
+    "static/js/3.4d408d64.chunk.js.map": "/react-portfolio/static/js/3.4d408d64.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.1400032e.chunk.css.map": "/react-portfolio/static/css/main.1400032e.chunk.css.map",
-    "static/js/2.681a4cca.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.681a4cca.chunk.js.LICENSE.txt",
+    "static/css/main.e4d70d1c.chunk.css.map": "/react-portfolio/static/css/main.e4d70d1c.chunk.css.map",
+    "static/js/2.4f2f041b.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.4f2f041b.chunk.js.LICENSE.txt",
     "static/media/Butterfree.c32cbf34.gif": "/react-portfolio/static/media/Butterfree.c32cbf34.gif",
     "static/media/ButterfreeStill.953db345.gif": "/react-portfolio/static/media/ButterfreeStill.953db345.gif",
     "static/media/CyberPunk.0ea2376f.gif": "/react-portfolio/static/media/CyberPunk.0ea2376f.gif",
@@ -19,6 +19,7 @@
     "static/media/CynthiaStill.dacfefc3.gif": "/react-portfolio/static/media/CynthiaStill.dacfefc3.gif",
     "static/media/Form.c50a5dff.png": "/react-portfolio/static/media/Form.c50a5dff.png",
     "static/media/Gary.5b85a1cd.gif": "/react-portfolio/static/media/Gary.5b85a1cd.gif",
+    "static/media/Github.eccaac2d.png": "/react-portfolio/static/media/Github.eccaac2d.png",
     "static/media/Inventory.ebac7e53.png": "/react-portfolio/static/media/Inventory.ebac7e53.png",
     "static/media/NewYork.9c1d2b7a.gif": "/react-portfolio/static/media/NewYork.9c1d2b7a.gif",
     "static/media/Pikachu.e603603d.gif": "/react-portfolio/static/media/Pikachu.e603603d.gif",
@@ -33,11 +34,11 @@
     "static/media/Recipe1.9ef97609.png": "/react-portfolio/static/media/Recipe1.9ef97609.png",
     "static/media/Recipe2.6d8ba053.png": "/react-portfolio/static/media/Recipe2.6d8ba053.png",
     "static/media/Recipe3.eb1a5d9f.png": "/react-portfolio/static/media/Recipe3.eb1a5d9f.png",
-    "static/media/Recipe4.41ea23d6.png": "/react-portfolio/static/media/Recipe4.41ea23d6.png",
     "static/media/SanFrancisco.9fc9ecde.gif": "/react-portfolio/static/media/SanFrancisco.9fc9ecde.gif",
     "static/media/Seatlle.4ed6d03b.gif": "/react-portfolio/static/media/Seatlle.4ed6d03b.gif",
     "static/media/Signup.75e1f72c.png": "/react-portfolio/static/media/Signup.75e1f72c.png",
     "static/media/SpinningStatue.f2301a39.gif": "/react-portfolio/static/media/SpinningStatue.f2301a39.gif",
+    "static/media/Starters.7a49fbde.gif": "/react-portfolio/static/media/Starters.7a49fbde.gif",
     "static/media/Treeko.f06d5f6c.gif": "/react-portfolio/static/media/Treeko.f06d5f6c.gif",
     "static/media/Update.dd2b0406.png": "/react-portfolio/static/media/Update.dd2b0406.png",
     "static/media/Wallpaper.506f803a.jpg": "/react-portfolio/static/media/Wallpaper.506f803a.jpg",
@@ -54,9 +55,9 @@
     "static/media/trees.59eb7852.gif": "/react-portfolio/static/media/trees.59eb7852.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.1daf352d.js",
-    "static/js/2.681a4cca.chunk.js",
-    "static/css/main.1400032e.chunk.css",
-    "static/js/main.ba3e1a2a.chunk.js"
+    "static/js/runtime-main.88b44f89.js",
+    "static/js/2.4f2f041b.chunk.js",
+    "static/css/main.e4d70d1c.chunk.css",
+    "static/js/main.90150421.chunk.js"
   ]
 }
