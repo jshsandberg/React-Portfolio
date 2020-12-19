@@ -4,7 +4,6 @@ import Pikachu from "../../utils/Pikachu.gif";
 import Recipe1 from "../../utils/RecipePictures/Recipe1.png";
 import Recipe2 from "../../utils/RecipePictures/Recipe2.png";
 import Recipe3 from "../../utils/RecipePictures/Recipe3.png";
-import Recipe4 from "../../utils/RecipePictures/Recipe4.png";
 import Seattle from "../../utils/RoadmapPictures/Seatlle.gif";
 import NewYork from "../../utils/RoadmapPictures/NewYork.gif";
 import SanFrancisco from "../../utils/RoadmapPictures/SanFrancisco.gif";
@@ -26,9 +25,6 @@ function RecipeContent() {
     const landmarks = [Seattle, NewYork, SanFrancisco]
 
 
-    const sectionStyle = {
-        backgroundImage: `url(${Wallpaper})`
-      }
 
     return (
     
@@ -41,7 +37,7 @@ function RecipeContent() {
                     <div className="col-7">
                         <div style={{borderStyle: "solid"}} className="container">
                             <div>
-                                <img className="img-responsive" style={{width: "100%"}} src={Recipe1}></img>
+                                <img className="img-responsive" style={{width: "100%"}} alt={Recipe1} src={Recipe1}></img>
                             </div>
                         </div>
                     </div>
@@ -61,7 +57,7 @@ function RecipeContent() {
                     <div className="col-7">
                         <div style={{borderStyle: "solid"}} className="container">
                             <div>
-                                <img className="img-responsive" style={{width: "100%"}} src={Recipe2}></img>
+                                <img className="img-responsive" style={{width: "100%"}} alt={Recipe2} src={Recipe2}></img>
                             </div>
                         </div>
                     </div>
@@ -78,12 +74,12 @@ function RecipeContent() {
                     <div className="col">
                         <p>Recipes has a homepage that lets the user find multiple random dishes and drinks. It has a search bar that lets user's type in a drink or food of their choice and then the application will populate the search page with findings using the API calls. There is a random dish selector for user's who may not know what they want and would like a surprise. </p>
                         <br></br>
-                        <h3>Come take a look here!  <a href="https://jshsandberg.github.io/Recipe/">Recipes</a></h3>
+                        <h3>Come take a look here!  <a target="_blank" href="https://jshsandberg.github.io/Recipe/">Recipes</a></h3>
                     </div>
                     <div className="col-7">
                         <div style={{borderStyle: "solid"}} className="container">
                             <div>
-                                <img className="img-responsive" style={{width: "100%"}} src={Recipe3}></img>
+                                <img className="img-responsive" style={{width: "100%"}} alt={Recipe3} src={Recipe3}></img>
                             </div>
                         </div>
                     </div>
@@ -99,10 +95,10 @@ function RecipeContent() {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <Link to="/roadmap"><img style={{width: "78%", paddingTop: "35px"}} src={landmark} /></Link>
+                        <Link to="/roadmap"><img style={{width: "78%", paddingTop: "35px"}} alt={landmark} src={landmark} /></Link>
                     </div>
                     <div className="col">
-                       <Link to="/pokedex"><img style={{width: "85%", paddingTop: "45px"}} src={Pikachu} /></Link>
+                       <Link to="/pokedex"><img style={{width: "85%", paddingTop: "45px"}} alt={Pikachu} src={Pikachu} /></Link>
                     </div>
                     <div className="col">
                         <Link to="/shelfkeeper"><img style={{maxWidth: "60%", paddingTop: "58px"}} alt={Logo} src={Logo}></img></Link>

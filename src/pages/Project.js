@@ -4,10 +4,14 @@ import RecipeHolder from "../components/RecipeHolder/index.js";
 import RoadmapHolder from "../components/RoadmapHolder/index.js"
 import WelcomeNavBar from "../components/WelcomeNavBar";
 import ShelfHolder from "../components/ShelfHolder/shelfholder.js";
+import NoGarchomp from "../components/SmallPokemonHolder/SmallPokemonHolder.js";
 //import Modal from "../components/TooltipModal/index.js"
 
 
 function ProjectPage() {
+
+    const isMobile = window.innerWidth < 1350;
+
     return (
         <div>
             <WelcomeNavBar></WelcomeNavBar>
@@ -20,7 +24,7 @@ function ProjectPage() {
             <br></br>
             <br></br>
             <br></br>
-            <PokemonHolder></PokemonHolder>
+            {isMobile ? <NoGarchomp></NoGarchomp> : <PokemonHolder></PokemonHolder>}
             <br></br>
             <br></br>
             <br></br>

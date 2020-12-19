@@ -41,9 +41,6 @@ function ShelfContent() {
         <br></br>
             <div className="container-fluid">
                 <div className="row">
-                    {/* <div className="col-2">
-                        
-                    </div> */}
                     <div className="col-8">
                         <div id="carouselExampleIndicators" class="carousel slide" data-interval="0">
                             <ol class="carousel-indicators">
@@ -86,7 +83,7 @@ function ShelfContent() {
                         </div>
                     </div>
                     <div className="col-4">
-                        <div style={techCol}>
+                        <div className="row" style={techCol}>
                             <p>
                                 Technologies used in Shelf Keeper:
                                 <br></br>
@@ -100,6 +97,11 @@ function ShelfContent() {
                                 Create the Inventory Page. Create the Inventory Form Page. Create the password authenticatation  and JsonWebTokens. Backend for the Inventory and Users. Create the CRUD for the application for the Inventory.
                             </p>
                         </div>
+                        <div className="row">
+                            <div className="col">
+                                <h1 style={{textAlign: "center", paddingTop: "30px"}}><a target="_blank" href="https://shelf-keeper-jshsandberg.herokuapp.com/">Shelf Keeper</a></h1>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <br></br>
@@ -110,10 +112,11 @@ function ShelfContent() {
                     </div>
                     <div className="col-10">
                         <br></br>
-                    <p>Shelf Keeper is our latest applicaiton and the one I am most proud of. It is MERN stack application. It uses multiple technologies and packages. It is deployed and ready to be used as of now; however, we have some features disabled now that we would like to add to in the future. Those features can be seen in the applicaiton; however, we have greyed out the buttons to show that they are not enabled but are being worked on as we speak. 
+                        <p>Shelf Keeper is our latest applicaiton and the one I am most proud of. It is MERN stack application. It uses multiple technologies and packages. It is deployed and ready to be used as of now; however, we have some features disabled now that we would like to add to in the future. Those features can be seen in the applicaiton; however, we have greyed out the buttons to show that they are not enabled but are being worked on as we speak. 
                         <br></br>
                         <br></br>
-                        Shelf Keeper is an inventory tracking application. It keeps track of each individual business a user may have and the inventory that business may have. A user can add, update, and delete their inventory as they see fit. This application also allows the user to keep track of their inventory's financal information. </p>
+                        Shelf Keeper is an inventory tracking application. It keeps track of each individual business a user may have and the inventory that business may have. A user can add, update, and delete their inventory as they see fit. This application also allows the user to keep track of their inventory's financal information. 
+                        </p>
                         <br></br>
                     </div>
                     <div className="col-1">

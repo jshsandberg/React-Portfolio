@@ -10,10 +10,7 @@ import SanFrancisco from "../../utils/RoadmapPictures/SanFrancisco.gif"
 import Line from "../../utils/PokedexPictures/hr.jpg"
 import Recipe from "../../utils/RecipePictures/Recipe.png";
 import Logo from "../../utils/InventoryPictures/logo.png";
-
 import "./style.css"
-import RecipeHolder from "../RecipeHolder";
-import RoadmapHolder from "../RoadmapHolder";
 
 
 
@@ -61,7 +58,7 @@ function PokemonPictures() {
                             <h5 style={pokemonStyle}>I wanted to find a project that I felt passionate about while still honing my skills with hooks, API's and other techniques. Creating a Pokedex with Gen I Pokemon has been extremely fun while also teaching me better practices. Learning how to plan a project has been a crucial point that I have learned while working on this project. I have gone through multiple versions of this application, thinking I was going to go one way and then realizing that way was either not efficient or just impractical. Still a work in progess; however, I am proud of the technological feat I have accomplished with this project.</h5>
                         </div>
                         <div>
-                            <h3>Love for you to check out my work at: <a href="https://jshsandberg.github.io/pokedex">Pokedex</a> </h3>
+                            <h3>Love for you to check out my work at: <a target="_blank" href="https://jshsandberg.github.io/pokedex">Pokedex</a> </h3>
                         </div>
                     </div>
                 </div>
@@ -77,7 +74,7 @@ function PokemonPictures() {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <Link to="roadmap"><img style={{width: "78%", paddingTop: "35px"}} src={landmark}></img></Link>
+                        <Link to="roadmap"><img style={{width: "78%", paddingTop: "35px"}} alt ={landmark} src={landmark}></img></Link>
                     </div>
                     <div className="col">
                         <Link to="/recipe"><img style={{width: "75%"}} className="recipe" alt={Recipe} src={Recipe}></img></Link>

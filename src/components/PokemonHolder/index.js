@@ -54,7 +54,9 @@ function PokemonHolder() {
             <div onMouseEnter={pokemonApp} onMouseLeave={stills}style={ style } className="container pokeBorder">
                 <div className="row">
                     <div className="col">
-                        <img className="pikachu" alt={pikachu} src={pikachu}></img>
+                        <img 
+                        // style={{maxWidth: "100%", paddingTop: "125px"}}
+                         className="pikachu" alt={pikachu} src={pikachu}></img>
                         <img className="cynthia" alt={leftPic} src={leftPic}></img>   
                         <img className="butterfree" alt={butterfree} src={butterfree}></img> 
                     </div>

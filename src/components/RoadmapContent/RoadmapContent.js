@@ -49,7 +49,7 @@ function RoadmapContent() {
                         <div style={{backgroundColor: "white", border: "solid"}} className="col-5">
                             <p>With the Back End, we used MySQL and Sequelize as our ORM. Being our first time with this implementing a Full Stack Applicaiton, the Back End cause a lot of issues and hardships. We found that using Sequelize on such a small application was not practical; however, once we got the ORM working, it opened a lot of possibilites that we wanted to implement in our application. This application allows for reads, creates, and deletes of the user notes.</p>
                             <br></br>
-                            <h3>Checkout our the application: <a href="https://roadtrip-planner-app.herokuapp.com/">RoadTrip Planner</a></h3>
+                            <h3>Checkout our the application: <a target="_blank" href="https://roadtrip-planner-app.herokuapp.com/">RoadTrip Planner</a></h3>
                         </div>
                         <div className="col-7">
                             <img style={{maxWidth: "100%"}} src={Picture2} />   
