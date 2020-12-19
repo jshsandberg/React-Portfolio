@@ -59,6 +59,8 @@ function PokemonPictures() {
                         </div>
                         <div>
                             <h3>Love for you to check out my work at: <a target="_blank" href="https://jshsandberg.github.io/pokedex">Pokedex</a> </h3>
+                            <br></br>
+                            <h4>Currently working on a version 2.0 right now. Pokedex 2.0 will be much more polished and have all the regions added to it!</h4>
                         </div>
                     </div>
                 </div>
