@@ -75,6 +75,8 @@ function RecipeContent() {
                         <p>Recipes has a homepage that lets the user find multiple random dishes and drinks. It has a search bar that lets user's type in a drink or food of their choice and then the application will populate the search page with findings using the API calls. There is a random dish selector for user's who may not know what they want and would like a surprise. </p>
                         <br></br>
                         <h3>Come take a look here!  <a target="_blank" href="https://jshsandberg.github.io/Recipe/">Recipes</a></h3>
+                        <br></br>
+                        <h4><a target="_blank" href="https://github.com/jshsandberg/Recipe">Github Repository</a></h4>
                     </div>
                     <div className="col-7">
                         <div style={{borderStyle: "solid"}} className="container">

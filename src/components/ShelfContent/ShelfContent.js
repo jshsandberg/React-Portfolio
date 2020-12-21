@@ -99,7 +99,11 @@ function ShelfContent() {
                         </div>
                         <div className="row">
                             <div className="col">
-                                <h1 style={{textAlign: "center", paddingTop: "30px"}}><a target="_blank" href="https://shelf-keeper-jshsandberg.herokuapp.com/">Shelf Keeper</a></h1>
+                                <div style={{textAlign: "center", paddingTop: "30px"}}>
+                                    <h1><a target="_blank" href="https://shelf-keeper-jshsandberg.herokuapp.com/">Shelf Keeper</a></h1>
+                                    <br></br>
+                                    <h4><a target="_blank" href="https://github.com/jshsandberg/Inventory">Github Repository</a></h4>
+                                </div>
                             </div>
                         </div>
                     </div>
