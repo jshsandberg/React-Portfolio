@@ -4,6 +4,8 @@ import Contact from "../components/ContactContent/ContactContent";
 
 function BioPage() {
 
+    console.log("test");
+    
     return (
         <>
             <Navbar></Navbar>

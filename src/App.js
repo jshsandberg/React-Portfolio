@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Route, useHistory } from "react-router-dom";
 import Pokedex from "./pages/Pokedex"
 import Welcome from "./pages/Welcome"
 import Project from "./pages/Project"
@@ -10,9 +10,12 @@ import Contact from "./pages/Contact";
 import Bio from "./pages/Bio";
 
 function App() {
-  return (
 
+
+  return (
+       
         <Router basename="/react-portfolio">
+  
           <Route exact path="/" component={Welcome} />
           <Route exact path="/react-portfolio" component={Welcome} />
           <Route exact path="/project" component={Project} />
@@ -22,7 +25,9 @@ function App() {
           <Route exact path="/shelfkeeper" component={Shelf} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/bio" component={Bio} />
+    
         </Router>
+      
   );
 }
 

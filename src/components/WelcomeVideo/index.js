@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Trees from "../../utils/trees.gif"
 import ImageFadeIn from "react-image-fade-in";
 import Statue from "../../utils/SpinningStatue.gif"
@@ -11,45 +11,27 @@ import "./style.css"
 function WelcomeVideo() {
     
     
-    const [Img, setImg] = useState(Trees);
+    const [img, setImg] = useState([Trees, Statue, Polygon, CyberPunk])
+    const [count , setCount] = useState(0)
 
-    // useEffect(() => {
-    //     console.log("did mount")
-    // },[Img])
-
-    const time = () => setInterval(swapImg, 7000);
-
-  
-
-    const reboot = () => setInterval(rebootImg, 60000);
-        
-    const rebootImg = () => {
-        setImg(Rebooting)
-    }
-
-
-
-    const swapImg = () => {
-        if (Img === Trees) {
-            setImg(Statue)
-        } else if (Img === Statue) {
-            setImg(Polygon)
-        } else if (Img === Polygon) {
-            setImg(CyberPunk)
-        } else {
-            setImg(Trees)
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCount(count => count + 1);
+          }, 6000);
+          if (count > 3) {
+            setCount(0)
         }
-    }
+          return () => clearInterval(interval);
+    
+        }, [count]);
 
-    time();
-    reboot();
 
 
 
     return (
         <div>
             <div className="container space">
-                {<ImageFadeIn opacityTransition={10} src={Img}/>}
+                <ImageFadeIn opacityTransition={10} src={img[count]}/>
             </div>
         </div>
     );

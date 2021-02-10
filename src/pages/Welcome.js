@@ -6,13 +6,13 @@ import WelcomeVideo from "../components/WelcomeVideo/index";
 
 function WelcomePage() {
 
-    const reset = () => setInterval(windowReload, 62000);
+    // const reset = () => setInterval(windowReload, 62000);
 
-    const windowReload = () => {
-        window.location.reload()
-    }
+    // const windowReload = () => {
+    //     window.location.reload()
+    // }
 
-    reset();
+    // reset();
 
     return (
         <div>
