@@ -14,6 +14,7 @@ function App() {
 
         <Router basename="/react-portfolio">
           <Route exact path="/" component={Welcome} />
+          <Route exact path="/react-portfolio" component={Welcome} />
           <Route exact path="/project" component={Project} />
           <Route exact path="/pokedex" component={Pokedex} />
           <Route exact path="/recipe" component={Recipe} />

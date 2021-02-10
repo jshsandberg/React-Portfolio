@@ -10,7 +10,14 @@ import SanFrancisco from "../../utils/RoadmapPictures/SanFrancisco.gif"
 import Line from "../../utils/PokedexPictures/hr.jpg"
 import Recipe from "../../utils/RecipePictures/Recipe.png";
 import Logo from "../../utils/InventoryPictures/logo.png";
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import "./style.css"
+import Pokedex4 from "../../utils/PokedexPictures/Pokedex4.png";
+import Pokedex5 from "../../utils/PokedexPictures/Pokedex5.png";
+import Pokedex6 from "../../utils/PokedexPictures/Pokedex6.png";
+
 
 
 
@@ -74,6 +81,39 @@ function PokemonPictures() {
                     height: "75px"
                 }}
            />
+           <br></br>
+           <Container fluid>
+               <Row>
+                   <Col align="center">
+                        <h1>Pokedex Version 2 is now available!</h1>
+                        <h4><a target="_blank" href="https://jshsandberg.github.io/pokedex-v2/">Pokedex 2.0</a></h4>
+                        <h4><a target="_blank" href="https://github.com/jshsandberg/pokedex-v2">Github</a></h4>
+                   </Col>
+               </Row>
+               <br></br>
+                <Row>
+                    <Container fluid>
+                        <Row>
+                            <Col xs={1}>
+                            
+                            </Col>
+                            <Col>
+                                <ImageFadeIn className="img-fluid" src={Pokedex5} />
+                            </Col>
+                            <Col>
+                                <ImageFadeIn className="img-fluid" src={Pokedex4}/>
+                            </Col>
+                            <Col>
+                                <ImageFadeIn className="img-fluid" src={Pokedex6}/>
+                            </Col>
+                            <Col xs={1}>
+                            
+                            </Col>
+                        </Row>
+                    </Container>
+                </Row>
+           </Container>
+           <br></br>
             <div className="container">
                 <div className="row">
                     <div className="col">
