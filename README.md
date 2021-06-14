@@ -9,3 +9,4 @@ RoadTrip Planner / Pokedex V1 / Shelf Keeper / Recipes
 
 ## Link
 https://jshsandberg.github.io/react-portfolio/
+# MiniPortfolio

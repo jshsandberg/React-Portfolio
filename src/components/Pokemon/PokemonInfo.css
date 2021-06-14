@@ -1,0 +1,44 @@
+.boxPokemon {
+    display: flex;
+    flex-direction: column;
+}
+
+.pictureOne {
+    width: 50vw;
+    margin: 0px 0px 5px 10px
+}
+
+.pictureTwo {
+    width: 25vw;
+    margin: 5px
+
+}
+
+.pictureThree {
+    width: 25vw;
+    margin: 5px
+
+}
+
+.bottomRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.holderPokemon {
+    display: flex;
+}
+
+.pokemonText {
+    margin: 10vh 1vw 0vh 1vw ;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.links > a {
+    text-decoration: none;
+}

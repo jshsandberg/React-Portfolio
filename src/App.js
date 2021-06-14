@@ -1,34 +1,64 @@
-import React, { useEffect } from "react";
-import { BrowserRouter as Router, Route, useHistory } from "react-router-dom";
-import Pokedex from "./pages/Pokedex"
-import Welcome from "./pages/Welcome"
-import Project from "./pages/Project"
-import Recipe from "./pages/Recipe"
-import Roadmap from "./pages/Roadmap"
-import Shelf from "./pages/Shelf";
-import Contact from "./pages/Contact";
-import Bio from "./pages/Bio";
+import React, { useState } from "react";
+import { CSSTransition, SwitchTransition } from "react-transition-group";
+import "./App.css";
+import PokemonInfo from "./components/Pokemon/PokemonInfo";
+import Pokemon from "./components/Projects/Pokemon.js";
+import Welcome from "./components/Welcome/Welcome";
+
+
+
 
 function App() {
 
 
+  const [id, setId] = useState('home');
+
   return (
-       
-        <Router basename="/react-portfolio">
-  
-          <Route exact path="/" component={Welcome} />
-          <Route exact path="/react-portfolio" component={Welcome} />
-          <Route exact path="/project" component={Project} />
-          <Route exact path="/pokedex" component={Pokedex} />
-          <Route exact path="/recipe" component={Recipe} />
-          <Route exact path="/roadmap" component={Roadmap} />
-          <Route exact path="/shelfkeeper" component={Shelf} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/bio" component={Bio} />
-    
-        </Router>
-      
-  );
+      <div className="page">
+          <div className="navBar">
+              <li className="list">
+                  <SwitchTransition mode={'out-in'}>
+                      <CSSTransition timeout={300} classNames="alert" key={id}>
+                        <div>
+                          { id !== 'home' ? <ul onClick={() => setId('home')}>home</ul> : null }
+                        </div>
+                      </CSSTransition>
+                  </SwitchTransition>
+                  <ul onClick={() => setId('work')}>work</ul>
+                  <ul onClick={() => setId('contact')}>contact</ul>
+                  <ul>about</ul>
+              </li>
+          </div>
+          <div>
+            <SwitchTransition mode={'out-in'}>
+                      <CSSTransition appear={true} timeout={500} classNames="alert" key={id}>
+                        <div>
+                          {id === 'home' ? 
+                            <Welcome />
+                                :
+                          id === 'work' ? 
+                                 <div className="holder">
+                                   <div onClick={() => setId("pokemon")}>
+                                    <Pokemon />
+                                   </div>
+                                   <div onClick={() => setId("pokemon")}>
+                                    <Pokemon />
+                                   </div>
+                                 </div>
+                                 : 
+                          id === "pokemon" ?
+                                  <div>
+                                    <PokemonInfo />
+                                  </div> 
+                          : null
+                                 }
+                        </div>
+                     </CSSTransition>
+            </SwitchTransition>
+          </div>
+
+      </div>
+  )
 }
 
 export default App;

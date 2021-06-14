@@ -1,0 +1,57 @@
+.relative {
+    position: relative;
+    margin-top: 10vh;
+}
+
+.titlePokemon {
+    font-size: 4vw;
+    padding: 0em .5em 0.2em 1.5em;
+    border: solid 2px gray
+ 
+}
+
+.pikachu {
+    width: 15vw;
+    position: absolute;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vh
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1000px) {
+    .pikachu {
+        left: -3em;
+        top: -1.5em
+    }
+  } 
+
+@media screen and (min-width: 1200px) {
+    .pikachu {
+        left: -4em;
+        top: -2em
+    }
+  } 
+
+@media screen and (min-width: 1400px) {
+    .pikachu {
+        left: -5.5em;
+        top: -2em
+    }
+  } 
+
+
+@media screen and (min-width: 1750px) {
+    .pikachu {
+        left: -7em;
+        top: -2.5em
+    }
+  } 
+
