@@ -1,6 +1,6 @@
 import React from "react";
 import Pikachu from "../../utils/Pikachu.gif";
-import "./Pokemon.css";
+import "./Projects.css";
 
 export default function Pokemon() {
 

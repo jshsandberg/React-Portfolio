@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import { CSSTransition, SwitchTransition } from "react-transition-group";
 import "./App.css";
+import Inventory from "./components/Projects/Inventory";
 import PokemonInfo from "./components/Pokemon/PokemonInfo";
-import Pokemon from "./components/Projects/Pokemon.js";
+import Pokemon from "./components/Projects/Pokemon";
 import Welcome from "./components/Welcome/Welcome";
+import Recipe from "./components/Projects/Recipe";
+import RoadPlanner from "./components/Projects/RoadPlanner";
 
 
 
@@ -37,14 +40,24 @@ function App() {
                             <Welcome />
                                 :
                           id === 'work' ? 
+                                <div className="mainHolder">
                                  <div className="holder">
                                    <div onClick={() => setId("pokemon")}>
                                     <Pokemon />
                                    </div>
-                                   <div onClick={() => setId("pokemon")}>
-                                    <Pokemon />
+                                   <div onClick={() => setId("inventory")}>
+                                    <Inventory />
+                                   </div>
+                                  </div>
+                                 <div className="holder">
+                                   <div onClick={() => setId("recipe")}>
+                                    <Recipe />
+                                   </div>
+                                   <div onClick={() => setId("roadplanner")}>
+                                    <RoadPlanner />
                                    </div>
                                  </div>
+                                </div>
                                  : 
                           id === "pokemon" ?
                                   <div>

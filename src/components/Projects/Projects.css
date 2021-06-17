@@ -10,6 +10,13 @@
  
 }
 
+.titleProject {
+    font-size: 4vw;
+    padding: 0em .5em 0.2em .5em;
+    border: solid 2px gray
+ 
+}
+
 .pikachu {
     width: 15vw;
     position: absolute;
