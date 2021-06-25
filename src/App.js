@@ -7,12 +7,10 @@ import Pokemon from "./components/Projects/Pokemon";
 import Welcome from "./components/Welcome/Welcome";
 import Recipe from "./components/Projects/Recipe";
 import RoadPlanner from "./components/Projects/RoadPlanner";
-
-
-
+import RecipeInfo from "./components/Recipe/Recipe";
+import InventoryInfo from "./components/Inventory/Inventory";
 
 function App() {
-
 
   const [id, setId] = useState('home');
 
@@ -63,6 +61,14 @@ function App() {
                                   <div>
                                     <PokemonInfo />
                                   </div> 
+                          : id === "recipe" ?
+                                  <div>
+                                    <RecipeInfo />
+                                  </div> 
+                          : id === "inventory" ?
+                                  <div>
+                                    <InventoryInfo />
+                                  </div>
                           : null
                                  }
                         </div>

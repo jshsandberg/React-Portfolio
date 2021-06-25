@@ -1,0 +1,9 @@
+.inventoryHolder {
+    margin: 10vh 1vw 0vh 1vw ;
+    display: flex;
+    flex-direction: column;
+}
+
+.inventoryText {
+    margin-top: 20vh
+}

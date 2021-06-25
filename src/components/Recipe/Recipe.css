@@ -1,0 +1,33 @@
+.recipeHolder {
+    display: flex;
+    flex-direction: row;
+}
+
+.recipeText {
+    margin: 10vh 1vw 0vh 1vw;
+    width: 50%;
+}
+
+.recipePicture {
+    margin: 10vh 1vw 0vh 1vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.recipeText > p {
+        font-size: 1.1rem;
+}
+
+.recipePicture1 {
+    width: 40vw
+}
+
+.recipePicture2 {
+    width: 40vw;
+    margin: 1vh 0vw 0vh 15vw;
+}
+
+.recipePicture3 {
+    width: 24vw;
+    margin: 0vh 1vw 0vh 1vw;
+}
